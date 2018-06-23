@@ -1,0 +1,4 @@
+[
+  "test_gradient_simple.py::test_numerical_gradient",
+  "test_gradient_simple.py::test_gradient_descent"
+]
