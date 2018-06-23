@@ -6,13 +6,11 @@ import sys, os
 import pytest
 import numpy as np
 
-from softmax import softmax
-
-from test_simple_network import sigmoid
+from deep_learning_from_scratch.functions import softmax, sigmoid
 
 sys.path.append(os.pardir)
 
-from dataset.mnist import load_mnist
+from deep_learning_from_scratch.dataset.mnist import load_mnist
 from PIL import Image
 
 def mean_squared_error(y, t):
