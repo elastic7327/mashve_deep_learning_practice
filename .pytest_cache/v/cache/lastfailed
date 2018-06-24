@@ -1,1 +1,4 @@
-{}
+{
+  "gradient_simplenet.py": true,
+  "tests/test_gradient_simple_net.py::test_simple_net_class": true
+}

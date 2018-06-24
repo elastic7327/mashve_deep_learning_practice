@@ -31,3 +31,4 @@ def gradient_descent(f, init_x, lr=0.1, step_num=100):
     return x
 
 
+
